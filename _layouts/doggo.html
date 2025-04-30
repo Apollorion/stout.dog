@@ -1,0 +1,165 @@
+---
+layout: default
+---
+
+{% for img in page.images %}
+    <img src="{{ page.assets }}/images/{{ img.src }}" alt="{{ img.alt }}" style="width: 100%; max-width: 600px;">
+{% endfor %}
+<br/><br/>
+<div style="text-align: center;">
+    <b>If you have found {{page.name}} please contact us, our details are below. Call, text, or email us any time.</b>
+</div>
+<br><br/>
+<table>
+    <tr>
+        <td>
+            <b>Name</b>
+        </td>
+        <td>
+            {{ page.name }}
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Owners</b>
+        </td>
+        <td>
+            <table>
+                {% for owner in site.owners %}
+                <tr>
+                    <td>
+                        <b>{{ owner.name }}</b>
+                    </td>
+                    <td>
+                        <div class="nowrap">
+                            <span class="ic--baseline-phone"></span> {{ owner.phone }}
+                        </div>
+                        <div class="nowrap">
+                            <span class="entypo--email"></span> {{ owner.email }}
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Home Location</b>
+        </td>
+        <td>
+            {{ site.home_location }}
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Breed</b>
+        </td>
+        <td>
+            {{ page.breed }}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Sex</b>
+        </td>
+        <td>
+            {% if page.male %}Male{% else %}Female{% endif %}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>{% if page.male %}Neutered{% else %}Spayed{% endif %}</b>
+        </td>
+        <td>
+            {% if page.sterilized %}Yes{% else %}No{% endif %}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Weight</b>
+        </td>
+        <td>
+            {{ page.weight }} lbs
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Birthday</b>
+        </td>
+        <td>
+            {{ page.birthday }}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Age</b>
+        </td>
+        <td>
+            {{ page.age }}
+        </td>
+    </tr>
+
+    {% if page.microchip %}
+    <tr>
+        <td>
+            <b>Microchip</b>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        <b>Company</b>
+                    </td>
+                    <td>
+                        {{ page.microchip.company }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Chip Number</b>
+                    </td>
+                    <td>
+                        {{ page.microchip.number }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>website</b>
+                    </td>
+                    <td>
+                        <a href="{{ page.microchip.website }}">{{ page.microchip.website }}</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    {% endif %}
+
+</table>
+<br/><br/>
+Vaccinations:
+<ul>
+    {% for vac in page.vaccines %}
+        <li>
+            {{ vac.name }}: exp. {{ vac.expiration }}
+            {% if vac.more_info %}
+            <ul>
+                <li>{{ vac.more_info }}</li>
+            </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
+Records:
+<ul>
+    {% for r in page.records %}
+    <li>
+        ({{r.date}}) <a href="{{page.assets}}/vet/{{r.path}}">{{ r.description }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{{ content }}

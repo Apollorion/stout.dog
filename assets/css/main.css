@@ -1,0 +1,36 @@
+html {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+    margin: auto;
+    width: 1%;
+    min-width: 430px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr:nth-child(n+2) {
+    border-top: solid thin black;
+}
+td:nth-child(n+2) {
+    border-left: solid thin black;
+}
+td {
+    padding: 0.5em;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
