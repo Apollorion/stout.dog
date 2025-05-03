@@ -16,7 +16,7 @@ images:
   - src: mm.jpeg
     alt: Marshmallow the Golden Retriever
 vaccines:
-    - name: Rabies
+    - name: Rabies Vaccine 1 Year
       expiration: 2026-05-12
       more_info: tag 29362-25
     - name: DA2PP
