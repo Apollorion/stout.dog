@@ -13,7 +13,9 @@ microchip:
   number: 985113009313284
   website: https://www.homeagain.com
 images:
-  - src: mm.jpeg
+  - src: mm_1.jpg
+    alt: Marshmallow the Golden Retriever
+  - src: mm_2.jpg
     alt: Marshmallow the Golden Retriever
 vaccines:
     - name: Rabies Vaccine 1 Year

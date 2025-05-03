@@ -6,7 +6,7 @@ birthday: 2018-04-16
 age: 7
 male: false
 sterilized: true
-weight: 41.00
+weight: 28.90
 assets: /assets/records/zaylee
 microchip:
   company: Petkey
@@ -30,6 +30,9 @@ records:
     - date: 2025-05-01
       description: Medical Summary
       path: med_summary.pdf
+    - date: 2014-10-13
+      description: AKC Certificate
+      path: akc.pdf
 ---
 Zaylee is our first dog and she introduced us to the Shetland Sheepdog breed.
 She is very sweet and loves to cuddle, very good with kids and other dogs though she likes to bark.
