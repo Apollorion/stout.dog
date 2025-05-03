@@ -2,8 +2,7 @@
 heading: Zaylee
 name: Zaylee
 breed: Shetland Sheepdog
-birthday: 2018-04-16
-age: 7
+birthday: 2014-06-29
 male: false
 sterilized: true
 weight: 28.90
@@ -14,9 +13,9 @@ microchip:
   website: https://www.petkey.org
 images:
   - src: zaylee_1.jpg
-    alt: zaylee the Shetland Sheepdog
+    alt: Zaylees Face
   - src: zaylee_2.jpg
-    alt: zaylee the Shetland Sheepdog
+    alt: Zaylees Body
 vaccines:
     - name: Rabies Vaccine 3 Year
       expiration: 2027-09-09

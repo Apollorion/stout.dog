@@ -3,7 +3,6 @@ heading: Marshmallow
 name: Marshmallow
 breed: Golden Retriever
 birthday: 2024-07-19
-age: 1Y
 male: false
 sterilized: true
 weight: 34.20
@@ -14,9 +13,9 @@ microchip:
   website: https://www.homeagain.com
 images:
   - src: mm_1.jpg
-    alt: Marshmallow the Golden Retriever
+    alt: Marshmallows Face
   - src: mm_2.jpg
-    alt: Marshmallow the Golden Retriever
+    alt: Marshmallows Body
 vaccines:
     - name: Rabies Vaccine 1 Year
       expiration: 2026-05-12

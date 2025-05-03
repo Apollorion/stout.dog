@@ -3,7 +3,6 @@ heading: Jupiter
 name: Jupiter
 breed: Shetland Sheepdog
 birthday: 2018-01-21
-age: 7
 male: true
 sterilized: true
 weight: 41.00
