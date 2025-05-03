@@ -6,27 +6,31 @@ birthday: 2018-04-16
 age: 7
 male: false
 sterilized: true
-weight: 34.20
-assets: /assets/records/jupiter
+weight: 41.00
+assets: /assets/records/zaylee
 microchip:
   company: Petkey
   number: 941000016906643
   website: https://www.petkey.org
 images:
-  - src: jupiter.jpeg
-    alt: Zaylee the Shetland Sheepdog
+  - src: zaylee_1.jpg
+    alt: zaylee the Shetland Sheepdog
+  - src: zaylee_2.jpg
+    alt: zaylee the Shetland Sheepdog
 vaccines:
-    - name: Rabies
-      expiration: 2026-04-16
-    - name: DA2PP
-      expiration: 2025-04-16
-    - name: Bordetella
-      expiration: 2025-04-16
+    - name: Rabies Vaccine 3 Year
+      expiration: 2027-09-09
+    - name: DA2PP + Lepto4 1 Year
+      expiration: 2025-09-09
+    - name: Canine Bordetella Oral 1 Year
+      expiration: 2025-09-09
+    - name: Influenza Bivalent 1-Year Vaccine
+      expiration: 2025-09-09
 records:
-    - date: 2023-04-16
-      description: this is a test
-      path: jupiter.jpeg
+    - date: 2025-05-01
+      description: Medical Summary
+      path: med_summary.pdf
 ---
-Jupiter is very friendly, but he loves to bark.
-He will bark and jump, but he will <b>not</b> bite. I promise.
-Hes just very excited and kinda dumb.
+Zaylee is our first dog and she introduced us to the Shetland Sheepdog breed.
+She is very sweet and loves to cuddle, very good with kids and other dogs though she likes to bark.
+She is the most trained of our dogs an is very smart.

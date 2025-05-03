@@ -13,9 +13,9 @@ microchip:
   number: 981020023235718
   website: https://www.petlink.net
 images:
-  - src: jupiter_1.jpeg
+  - src: jupiter_1.jpg
     alt: Jupiter the Shetland Sheepdog
-  - src: jupiter_2.jpeg
+  - src: jupiter_2.jpg
     alt: Jupiter the Shetland Sheepdog
 vaccines:
     - name: Rabies Vaccine 3 Year
