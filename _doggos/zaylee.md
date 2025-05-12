@@ -12,10 +12,14 @@ microchip:
   number: 941000016906643
   website: https://www.petkey.org
 images:
-  - src: zaylee_1.jpg
-    alt: Zaylees Face
-  - src: zaylee_2.jpg
-    alt: Zaylees Body
+    - src: zay_4.png
+      alt: Zaylees The Shetland Sheepdog
+    - src: zay_3.png
+      alt: Zaylees Body
+    - src: zaylee_1.jpg
+      alt: Zaylees Face
+    - src: zaylee_2.jpg
+      alt: Zaylees Body
 vaccines:
     - name: Rabies Vaccine 3 Year
       expiration: 2027-09-09

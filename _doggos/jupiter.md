@@ -12,10 +12,14 @@ microchip:
   number: 981020023235718
   website: https://www.petlink.net
 images:
-  - src: jupiter_1.jpg
-    alt: Jupiter the Shetland Sheepdog
-  - src: jupiter_2.jpg
-    alt: Jupiter the Shetland Sheepdog
+    - src: jup_3.png
+      alt: Jupiter the Shetland Sheepdog
+    - src: jup_4.png
+      alt: Jupiter Sideview
+    - src: jupiter_1.jpg
+      alt: Jupiter facing
+    - src: jupiter_2.jpg
+      alt: Jupiter at an angle
 vaccines:
     - name: Rabies Vaccine 3 Year
       expiration: 2027-09-09

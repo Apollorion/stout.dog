@@ -12,10 +12,14 @@ microchip:
   number: 985113009313284
   website: https://www.homeagain.com
 images:
-  - src: mm_1.jpg
-    alt: Marshmallows Face
-  - src: mm_2.jpg
-    alt: Marshmallows Body
+    - src: marsh_3.png
+      alt: Marshmallow The Golden Retriever
+    - src: marsh_4.png
+      alt: Marshmallows Body
+    - src: mm_1.jpg
+      alt: Marshmallows Face
+    - src: mm_2.jpg
+      alt: Marshmallows Body
 vaccines:
     - name: Rabies Vaccine 1 Year
       expiration: 2026-05-12
